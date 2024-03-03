@@ -145,8 +145,11 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 134px;
+    width: 100px;
     height: 40px;
+}
+.add-button{
+    width: auto;
 }
 
 footer {
