@@ -71,7 +71,7 @@
         window.location.href = "datasupplier.php";
     }; 
     function openPersediaan() {
-        window.location.href = "persediaan.php";
+        window.location.href = "datapersediaan.php";
     }; 
     function openPenjualan() {
         window.location.href = "penjualan.php";

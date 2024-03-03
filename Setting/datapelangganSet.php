@@ -4,9 +4,9 @@
 $nama = $_POST['nama'];
 $alamat = $_POST['alamat'];
 
-if (strpos($nama, ' ') !== false ) {
+if ($nama == "") {
     echo '<script>
-            alert("Nama pelanggan tidak boleh kosong atau menggunakan spasi!");
+            alert("Nama pelanggan tidak boleh kosong!");
             window.location.href = "../view/user/datapelanggan.php";
             </script>';
 } elseif ($alamat == "") {

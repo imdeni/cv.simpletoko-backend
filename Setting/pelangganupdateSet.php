@@ -7,9 +7,9 @@ if (isset($_GET['id'])) {
     $nama = $_POST['nama'];
     $alamat = $_POST['alamat'];
 
-    if (strpos($nama, ' ') !== false || $nama == "") {
+    if ($nama == "") {
         echo '<script>
-                alert("Nama pelanggan tidak boleh kosong atau menggunakan spasi!");
+                alert("Nama pelanggan tidak boleh kosong!");
                 window.location.href = "../view/user/datapelanggan.php";
                 </script>';
     } elseif ($alamat == "") {
@@ -48,7 +48,7 @@ if (isset($_GET['id'])) {
             } else {
                 echo '<script>
                     alert("Error!' . $stmt->error . '");
-                    window.location.href = "../view/user/datauser.php";
+                    window.location.href = "../view/user/datapelanggan.php";
                     </script>';
             }
             $stmt->close();
