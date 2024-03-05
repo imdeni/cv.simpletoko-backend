@@ -4,9 +4,9 @@
 	background-repeat: no-repeat;
 	background-size: 1380px 720px;
 } */
-form {
+/* form {
     margin-top: 50px;
-}
+} */
 
 label {
     display: block;
@@ -148,7 +148,8 @@ button {
     width: 100px;
     height: 40px;
 }
-.add-button{
+
+.add-button {
     width: auto;
 }
 
@@ -205,6 +206,27 @@ footer {
 
 .dropdown:hover .dropbtn {
     background-color: rgb(235, 235, 235);
+}
+
+.column-container {
+    display: grid;
+    grid-template-columns: 160px 200px;
+}
+input,
+select {
+    height: 30px; /* Adjust the height value as needed */
+    box-sizing: border-box; /* Ensure padding and border are included in the height */
+}
+select{
+    margin-bottom: 10px;
+}
+label{
+    font-size: 20px;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 20px;
 }
 
 .btnhover {

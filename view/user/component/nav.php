@@ -69,12 +69,15 @@
     };
     function openDataSupplier() {
         window.location.href = "datasupplier.php";
+    };
+    function openDataSupplier() {
+        window.location.href = "datasupplier.php";
     }; 
     function openPersediaan() {
         window.location.href = "datapersediaan.php";
     }; 
     function openPenjualan() {
-        window.location.href = "penjualan.php";
+        window.location.href = "datapenjualan.php";
     };
     function openLaporanPersediaan() {
         window.location.href = "laporanpersediaan.php";
